@@ -34,3 +34,5 @@ pytest-cov==5.0.0
 # langchain==0.2.0
 # langchain-core==0.2.28
 # langchain-openai==0.1.20
+oauthlib>=4.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
